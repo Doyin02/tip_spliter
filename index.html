@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tip Spliter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>SPLITER</h2>
+    <div id="container">
+        <div id="container1">
+            <div id="content">
+                <h3 id="bill">Bill</h3>
+                <div class="con">
+                    <input type="number" id="input"/>
+                    <img src="images/icon-person.svg"/>
+                </div>
+                <div id="secInside"> 
+                    <h3>select tip %</h3>
+                    <div id="mainContainer" >
+                        <div id="firstSet">
+                            <button id="one" value="0.05">5%</button>
+                            <button id="two" value="0.10">10%</button>
+                            <button id="three" value="0.15">15%</button>
+                        </div>
+                        <div id="secondSet">
+                            <button id="four" value="0.25">25%</button>
+                            <button id="five" value=" 0.50">50%</button>
+                            <!-- <button id="six">custom</button> -->
+                        </div>
+                    </div>
+                </div>
+                <h3 id="bills" style="margin-left: 20px; margin-top: 20px; font-family: 'Roboto', sans-serif;">number of people</h3>
+                <div class="con">
+                    <input type="text" id="input2"/>
+                </div>
+            </div>
+        </div>
+        <div id="secondCon">
+            <div id="secCon">
+                <div id="firstCon">
+                    <h3>Tip Amount</h3>
+                    <p>/person</p>
+                 </div>
+                <div id="amount" style="font-size: 40px; color: white;">
+                    0.00
+                </div>
+            </div>
+            <div id="secCon">
+                <div id="firstCons">
+                    <h3>Total</h3>
+                    <p>/person</p>
+                 </div>
+                <div id="amounts" style="font-size: 40px; margin-top: 60px; margin-left: 120px; color: white;">
+                    0.00
+                </div>
+            </div>
+            <button id="btn" style="color: #fff; ">RESET</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
